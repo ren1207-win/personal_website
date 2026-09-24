@@ -863,6 +863,19 @@ main {
   font-size: 13px;
 }
 
+.education-header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* 图片和标题之间的间距 */
+}
+
+.school-logo {
+  height: 30px; /* 设置高度，确保与宽度一致 */
+  object-fit: cover; /* 填充整个区域，裁剪多余部分 */
+  margin-bottom: 9px;
+  border-radius: 4px;
+}
+
 
 .tag-container {
   display: flex;
