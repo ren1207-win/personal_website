@@ -837,6 +837,7 @@ main {
 .timeline-text {
   color: var(--light-gray);
   font-weight: var(--fw-300);
+  margin-top: 4px;
   line-height: 1.6;
 }
 
@@ -854,7 +855,7 @@ main {
 }
 
 .timeline-text-list {
-  padding-left: 10px; /* 左侧缩进 */
+  padding-left: 0px; /* 左侧缩进 */
   margin: 7px 0 7px 0; /* 底部间距 */
 }
 
@@ -1094,6 +1095,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  max-width: 100%;
 }
 
 .blog-post-item > a {
@@ -1680,7 +1682,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* portfolio and blog grid */
 
-  .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .project-list { grid-template-columns: 1fr 1fr; }
+  .blog-posts-list { grid-template-columns: 1fr; }
 
 
 
