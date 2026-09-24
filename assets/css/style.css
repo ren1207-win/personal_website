@@ -1441,7 +1441,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about .article-title { margin-bottom: 20px; }
 
-  .about-text { margin-bottom: 40px; }
+  .about-text { 
+    margin-top: 20px;
+    margin-bottom: 40px; }
 
   /* service */
 
